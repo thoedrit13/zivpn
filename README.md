@@ -10,7 +10,7 @@
 รันคำสั่งด้านล่างนี้ใน Terminal เพื่อเรียกใช้งาน **ZIVPN Manager Menu** (รองรับการติดตั้ง, แก้ไข, และถอนการติดตั้งในตัวเดียว):
 
 ```bash
-bash <(curl -fsSL [https://raw.githubusercontent.com/thoedrit13/zivpn/main/setup.sh](https://raw.githubusercontent.com/thoedrit13/zivpn/main/setup.sh))
+bash <(curl -fsSL https://raw.githubusercontent.com/thoedrit13/zivpn/main/setup.sh)
 ```
 
 ---
@@ -64,7 +64,7 @@ apt install iptables-persistent
 
 **1. เปิดเมนูจัดการและเลือกหัวข้อ Uninstall:**
 ```bash
-bash <(curl -fsSL [https://raw.githubusercontent.com/thoedrit13/zivpn/main/setup.sh](https://raw.githubusercontent.com/thoedrit13/zivpn/main/setup.sh))
+bash <(curl -fsSL https://raw.githubusercontent.com/thoedrit13/zivpn/main/setup.sh)
 ```
 
 **2. ล้างกฎ Iptables ให้หมดจด (ถ้ามีตกค้าง):**
