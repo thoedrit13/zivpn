@@ -25,7 +25,7 @@ while true; do
 #installv1
 function installv1(){
 echo -e "${RED} ────────────── /// ─────────────── "
-echo -e "${YELLOW}This option will install ZIVPN version 1, UDP port range will be 20000:50000 redirected to 5666"
+echo -e "${YELLOW}This option will install ZIVPN version 1, UDP port range will be 1:65535 redirected to 5666"
 echo -e "${YELLOW}Continue?"
 while [[ ${yesno} != @(s|S|y|Y|n|N) ]]; do
 read -p "[S/N]: " yesno
@@ -33,13 +33,13 @@ tput cuu1 && tput dl1
 done
 if [[ ${yesno} = @(s|S|y|Y) ]]; then
 echo -e "${YELLOW}INSTALLING.."
-bash <(curl -fsSL https://raw.githubusercontent.com/powermx/zivpn/main/ziv1.sh)
+bash <(curl -fsSL https://raw.githubusercontent.com/thoedrit13/zivpn/main/ziv1.sh)
 fi
 }
 #installv2
 function installv2(){
 echo -e "${RED} ────────────── /// ─────────────── "
-echo -e "${YELLOW}This option will install ZIVPN version 2 AMD, UDP port range will be 6000:19999 redirected to 5667"
+echo -e "${YELLOW}This option will install ZIVPN version 2 AMD, UDP port range will be 1:65535 redirected to 5667"
 echo -e "${YELLOW}Continue?"
 while [[ ${yesno} != @(s|S|y|Y|n|N) ]]; do
 read -p "[S/N]: " yesno
@@ -47,13 +47,13 @@ tput cuu1 && tput dl1
 done
 if [[ ${yesno} = @(s|S|y|Y) ]]; then
 echo -e "${YELLOW}INSTALLING.."
-bash <(curl -fsSL https://raw.githubusercontent.com/powermx/zivpn/main/ziv2.sh)
+bash <(curl -fsSL https://raw.githubusercontent.com/thoedrit13/zivpn/main/ziv2.sh)
 fi
 }
 #installv3
 function installv3(){
 echo -e "${RED} ────────────── /// ─────────────── "
-echo -e "${YELLOW}This option will install ZIVPN version 2 ARM, UDP port range will be 6000:19999 redirected to 5667"
+echo -e "${YELLOW}This option will install ZIVPN version 2 ARM, UDP port range will be 1:65535 redirected to 5667"
 echo -e "${YELLOW}Continue?"
 while [[ ${yesno} != @(s|S|y|Y|n|N) ]]; do
 read -p "[S/N]: " yesno
@@ -61,7 +61,7 @@ tput cuu1 && tput dl1
 done
 if [[ ${yesno} = @(s|S|y|Y) ]]; then
 echo -e "${YELLOW}INSTALLING.."
-bash <(curl -fsSL https://raw.githubusercontent.com/powermx/zivpn/main/ziv3.sh)
+bash <(curl -fsSL https://raw.githubusercontent.com/thoedrit13/zivpn/main/ziv3.sh)
 fi
 }
 #uninstall
@@ -75,7 +75,7 @@ tput cuu1 && tput dl1
 done
 if [[ ${yesno} = @(s|S|y|Y) ]]; then
 echo -e "${YELLOW}UNINSTALLING.."
-bash <(curl -fsSL https://raw.githubusercontent.com/powermx/zivpn/main/uninstall.sh)
+bash <(curl -fsSL https://raw.githubusercontent.com/thoedrit13/zivpn/main/uninstall.sh)
 fi
 }
 #start
