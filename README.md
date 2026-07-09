@@ -7,7 +7,7 @@
 
 ## 🛠️ วิธีติดตั้ง (Installation)
 
-รันคำสั่งด้านล่างนี้ใน Terminal เพื่อเรียกใช้งาน **ZIVPN Manager Menu** (รองรับการติดตั้ง, แก้ไข, และถอนการติดตั้งในตัวเดียว):
+รันคำสั่งด้านล่างนี้ใน Terminal เพื่อเรียกใช้งาน **ZIVPN Manager Menu** (รองรับการติดตั้ง, แก้ไข, และถอนการติดตั้งในตัวเดียว) ถ้าไม่ต้องการ exclude port ใส่ 0:
 
 ```bash
 bash <(curl -fsSL https://raw.githubusercontent.com/thoedrit13/zivpn/main/setup.sh)
@@ -25,9 +25,10 @@ nano /etc/zivpn/ports.conf
 ```
 
 **2. แก้ไขตัวเลขพอร์ตตามต้องการ:**
+ถ้าไม่ต้องการ exclude port ใส่ 0
 ```env
 TARGET_PORT=5666
-EXCLUDE_PORTS="53,68,111,546,5353,7359,12451,41641,51820,53602,9999"
+EXCLUDE_PORTS="0"
 ```
 *(บันทึกไฟล์: กด `Ctrl+O` -> `Enter` -> `Ctrl+X`)*
 
