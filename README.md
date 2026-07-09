@@ -1,5 +1,3 @@
-![](https://github.com/thoedrit13/dl/blob/master/zivpn.png)
-
 UDP server installation for ZIVPN Tunnel (SSH/DNS) VPN app.
 <br>
 
