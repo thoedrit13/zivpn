@@ -20,7 +20,7 @@ bash <(curl -fsSL https://raw.githubusercontent.com/thoedrit13/zivpn/main/ziv1.s
 ```
 bash <(curl -fsSL https://raw.githubusercontent.com/thoedrit13/zivpn/main/ziv2.sh)
 ```
-#### ZIVPN v2 ARM
+#### ZIVPN v3 ARM
 
 ```
 bash <(curl -fsSL https://raw.githubusercontent.com/thoedrit13/zivpn/main/ziv3.sh)
